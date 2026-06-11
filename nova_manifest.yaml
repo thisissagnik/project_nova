@@ -1,0 +1,42 @@
+project: Nova
+
+vision: >
+  Open-source AI runtime platform for companions,
+  enterprise agents, robots, and autonomous systems.
+
+phase: Foundation
+
+applications:
+  - nova_rover
+  - creator_intelligence
+  - factory_observer
+  - developer_agent
+
+core:
+  - identity_engine
+  - memory_engine
+  - reflection_engine
+  - planner_engine
+  - action_engine
+  - event_bus
+  - plugin_manager
+  - model_provider
+
+agentic_layer:
+  - goal_manager
+  - task_manager
+  - workflow_engine
+  - agent_runtime
+
+plugins:
+  - speech
+  - vision
+  - memory
+
+cloud:
+  - azure_ai_foundry
+
+future:
+  - local_models
+  - offline_execution
+  - ai_generated_pull_requests
