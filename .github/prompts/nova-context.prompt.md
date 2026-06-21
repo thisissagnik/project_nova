@@ -1,11 +1,11 @@
 Read:
 
 - README.md
-- ARCHITECTURE.md
-- ROADMAP.md
-- AI_CONTEXT.md
-- DECISIONS.md
-- nova_manifest.yaml
+- docs/project_docs/ARCHITECTURE.md
+- docs/project_docs/ROADMAP.md
+- docs/project_docs/AI_CONTEXT.md
+- docs/project_docs/DECISIONS.md
+- docs/project_docs/nova_manifest.yaml
 
 Treat these files as the source of truth.
 

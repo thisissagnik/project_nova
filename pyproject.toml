@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nova-core"
+version = "0.1.0"
+description = "Nova core runtime platform"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+  "fastapi==0.109.1",
+  "uvicorn[standard]==0.24.0",
+  "pydantic==2.9.0",
+  "pydantic-settings==2.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.2",
+  "pytest-asyncio==0.22.0",
+  "flake8==7.0.0",
+  "httpx==0.27.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nova_core*"]

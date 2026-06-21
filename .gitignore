@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+venv/
+.venv/
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Docker
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
